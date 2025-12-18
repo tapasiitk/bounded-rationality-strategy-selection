@@ -1,0 +1,2 @@
+total_trials,n_participants,rank_based_aic,pairwise_aic,delta_aic,better_model,evidence_strength,rank_accuracy,pairwise_accuracy,rank_params,pairwise_params
+1506,17,2560.072974293708,2335.521075103869,224.55189918983888,pairwise,Very strong,50.0,61.0,"[0.8, 0.5, 0.3, 150]",[100]
