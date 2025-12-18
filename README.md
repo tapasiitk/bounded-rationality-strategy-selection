@@ -160,7 +160,7 @@ This study was pre-registered prior to data collection on the Open Science Frame
 
 - **Commensurable Attributes**: All values presented as numerical magnitudes that can be directly compared
 - **Multi-Attribute RSVP Paradigm**: 24 sequential frames (500ms each) before choice
-- **Trials: 72 main trials + 24 catch trials**
+- **Trials**: 72 main trials + 24 catch trials
 - **Sample**: N = 17 participants (after exclusion criteria)
 - **Trials**: 1,506 valid trials (92.3% retention after quality control)
 
