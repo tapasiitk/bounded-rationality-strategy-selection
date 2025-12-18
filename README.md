@@ -151,12 +151,16 @@ jupyter notebook notebooks/analysis_walkthrough.ipynb
 ✅ **Bayesian Hypothesis Testing** (BF₀₁ = 21.67 for null attraction effect)
 
 ---
+## Preregistration
+
+This study was pre-registered prior to data collection on the Open Science Framework (OSF):  
+🔗 **[View Preregistration](https://osf.io/kbnpa/overview?view_only=8d17cf39b4ce44de986fceb120f2e7e0)**
 
 ## Design Considerations
 
 - **Commensurable Attributes**: All values presented as numerical magnitudes that can be directly compared
-- **Pre-Registered Design**: Study design registered at OSF prior to data collection
 - **Multi-Attribute RSVP Paradigm**: 24 sequential frames (500ms each) before choice
+- **Trials: 72 main trials + 24 catch trials**
 - **Sample**: N = 17 participants (after exclusion criteria)
 - **Trials**: 1,506 valid trials (92.3% retention after quality control)
 
