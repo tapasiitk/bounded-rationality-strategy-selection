@@ -25,8 +25,6 @@ stim_summ = (
     .rename(columns={'A':'A_frames', 'B':'B_frames', 'C':'C_frames'})
 )
 
-# Prepare the response data: assumes each row is a single trial for a subject
-# If necessary, group to get one row per trial per participant (if responses file is at finer granularity)
 if 'frame' in responses.columns:
     resp_summ = (
         responses.groupby(['userId', 'trial']).agg({
