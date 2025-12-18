@@ -152,16 +152,6 @@ jupyter notebook notebooks/analysis_walkthrough.ipynb
 
 ---
 
-## Key Insights for AI/ML
-
-This research has implications for:
-
-- **LLM Interpretability & Reasoning**: Understanding when neural systems employ complex reasoning vs. shortcuts
-- **Human-AI Interaction**: Designing decision support systems that complement human cognitive constraints
-- **Responsible AI**: Recognizing that apparent "errors" in decision-making often reflect adaptive strategy selection, not fundamental irrationality
-
----
-
 ## Design Considerations
 
 - **Commensurable Attributes**: All values presented as numerical magnitudes that can be directly compared
@@ -217,7 +207,7 @@ For questions about the code or research:
 
 ## Acknowledgments
 
-- **IITK Center of Excellence in Cognitive Science** for research support
+- **IITK Department of Cognitive Science** for research support
 - **OSF** for preregistration infrastructure
 - Inspired by Simon's bounded rationality framework and Tsetsos et al.'s salience model
 
