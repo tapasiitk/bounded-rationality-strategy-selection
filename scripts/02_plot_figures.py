@@ -171,7 +171,7 @@ def calculate_goodness_of_fit(observed, predicted):
     
     return r, rmse
 
-def create_model_comparison_figure(df, rank_params, meta_params, save_path='model_comparison_figure.png'):
+def create_model_comparison_figure(df, rank_params, meta_params, save_path='figures/model_comparison_figure.png'):
     """Create the complete model comparison figure."""
     
     print("Calculating observed proportions and model predictions...")
@@ -295,8 +295,8 @@ def create_model_comparison_figure(df, rank_params, meta_params, save_path='mode
     }
     
     plot_df = pd.DataFrame(plot_data)
-    plot_df.to_csv('model_comparison_data.csv', index=False)
-    print(f"Data saved to 'model_comparison_data.csv'")
+    plot_df.to_csv('results/model_comparison_data.csv', index=False)
+    print(f"Data saved to 'results/model_comparison_data.csv'")
     
     plt.show()
     
@@ -306,8 +306,8 @@ def main():
     """Main function to generate the complete figure."""
     
     # File paths (adjust these to your file locations)
-    STIMULI_FILE = 'stimuli_multinum_25May25.csv'
-    RESPONSE_FILE = 'filtered_data_vpsyco_numerical.csv'
+    STIMULI_FILE = 'data/stimuli.csv'
+    RESPONSE_FILE = 'data/clean_data.csv'
     
     # Your fitted model parameters
     RANK_PARAMS = [1.00, 0.50, 0.10, 10.0]  # w1, w2, w3, noise

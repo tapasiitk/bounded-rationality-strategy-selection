@@ -10,8 +10,8 @@ warnings.filterwarnings('ignore')
 # STEP 1: DATA PREPARATION
 # --------------------
 # Load both files
-stimuli = pd.read_csv("stimuli_multinum_25May25.csv")
-responses = pd.read_csv("filtered_data_vpsyco_numerical.csv")
+stimuli = pd.read_csv("data/stimuli.csv")
+responses = pd.read_csv("data/clean_data.csv")
 
 # Prepare stimulus data: Each trial as a list of frames for A,B,C
 stim_summ = (
